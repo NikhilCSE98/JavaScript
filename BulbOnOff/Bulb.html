@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        .flex{
+            display: flex;
+            flex-wrap: wrap;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+        .container{
+            width: 100%;
+            height: 100vh;
+            background-color: royalblue;
+            color: #fff;
+        }
+        button{
+            width: 120px;
+            height: 40px;
+            margin: 60px 20px;
+            font-weight: bold;
+            border-radius: 5px;
+            background:-webkit-linear-gradient(top,#69f547,#38a81b);
+            border: 1px solid black;
+            box-shadow: inset;
+            box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+        }
+        button:hover {
+            background: -webkit-linear-gradient(top,#eb9e39,#e08c0e);
+            transform: scale(1.1);
+        }
+    </style>
+</head>
+<body>
+    <div class="container flex">
+        <img class="bulboff" src="bulbOff.png" alt="bulb off image">
+         <div class="box">
+            <button class="btn1" onclick="bulbOn()">ON</button>
+            <button class="btn2" onclick="bulbOff()">OFF</button>
+         </div>
+    </div>
+    <script src="Bulb.js"></script>
+</body>
+</html>
