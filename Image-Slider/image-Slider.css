@@ -1,0 +1,28 @@
+body{
+    margin: 0px;
+}
+.container{
+    width: 100%;
+    position: relative;
+    
+}
+.img-slider{
+    width: 100%;
+    display: none;
+}
+.btn{
+    cursor: pointer;
+    position: absolute;
+    top:45%;
+    border-radius: 50%;
+    background-color:rgba(255, 255, 255,0.23);
+    border: 1px solid transparent ;
+    font-size: 40px;
+    font-weight: bold;
+}
+.btn1{
+    left: 10px;
+}
+.btn2{
+    right: 10px;
+}
