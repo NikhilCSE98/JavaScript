@@ -1,0 +1,40 @@
+.fanbox {
+    width: 200px;
+    height: 200px;
+    background: url("fan-blades-png.png");
+    background-size: contain;
+    margin: 100px auto;
+    animation-name: fan;
+    animation-duration: 10s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    animation-play-state: paused;
+}
+
+@keyframes fan {
+    0% {
+        transform: rotateZ(0deg);
+    }
+
+    100% {
+        transform: rotateZ(359deg);
+    }
+}
+
+.box {
+    text-align: center;
+}
+
+.btn {
+    width: 80px;
+    height: 30px;
+    margin: 5px;
+    border-radius: 12px;
+    border: 1px solid black;
+    background-image: -webkit-linear-gradient(top, #8cdb24d0, #08a53fb7);
+}
+
+.btn1 {
+    background-image: none;
+    background-color: red;
+}
